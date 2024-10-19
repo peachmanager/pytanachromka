@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHROMKA</title>
+</head>
+<body>
+    <header>
+        <h1>Cromka pytania</h1>
+    </header>
+    
+
+    </nav>
+    <!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codzienne zdanie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f0f0f0;
+        }
+        #quote {
+            font-size: 24px;
+            color: #333;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pytanie na dzis
+    </h1>
+    <div id="quote"></div>
+
+    <script>
+        // Lista zdań
+        const quotes = [
+            "Czy chromka je szyszki?",
+            "Czy Chromka pracuje w gestapo?",
+            "Czy chromka wystąpiła w Listy Do M 5?",
+            "Czy chromka wynalazla zarowke?",
+            "Czy chromka nosi buty?",
+            "Czy chromka ujarzmila mustanga z dzikiej doliny?",
+            "Czy chromka nagrywa mukbang?",
+            "Czy chromka bije gronostaja?",
+            "DCzy chromka lubi oscypki?",
+            "Czy chromka zrobila zamah na wtc?"
+        ];
+
+        // Oblicz dzień roku (od 0 do 365)
+        const today = new Date();
+        const start = new Date(today.getFullYear(), 0, 0);
+        const diff = today - start;
+        const oneDay = 1000 * 60 * 60 * 24;
+        const dayOfYear = Math.floor(diff / oneDay);
+
+        // Wybierz zdanie na podstawie dnia roku
+        const quoteOfTheDay = quotes[dayOfYear % quotes.length];
+
+        // Wyświetl zdanie na stronie
+        document.getElementById('quote').innerText = quoteOfTheDay;
+    </script>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zdjęcie po lewej stronie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            float: left; /* Ustawienie zdjęcia po lewej stronie */
+            width: 300px; /* Ustawienie szerokości obrazka */
+            margin-right: 20px; /* Odstęp od tekstu */
+            border-radius: 10px; /* Zaokrąglone rogi (opcjonalnie) */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Cień pod obrazem (opcjonalnie) */
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wstawienie zdjęcia po lewej stronie -->
+    <img src="chromka.jpg"
+
+    
+    </div>
+
+</body>
+</html>
+
+    <footer>
+       
+    </footer>
+</body>
+</html>
